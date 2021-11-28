@@ -95,7 +95,7 @@ topic2.addEventListener("click",()=>{
         photo.style.width = "100px";
         photo.style.height = "100px";
         photo.style.transitionDuration = "1s";
-        myName.style.transform ="translate(calc(55vw - 350px),-22vh)";
+        myName.style.transform ="translate(calc(55vw - 350px),-21vh)";
         myName.style.transitionDuration = "1s";
     }
 });
@@ -132,7 +132,7 @@ topic3.addEventListener("click",()=>{
         photo.style.width = "100px";
         photo.style.height = "100px";
         photo.style.transitionDuration = "1s";
-        myName.style.transform ="translate(calc(55vw - 350px),-22vh)";
+        myName.style.transform ="translate(calc(55vw - 350px),-21vh)";
         myName.style.transitionDuration = "1s";
     }
 })
@@ -169,7 +169,7 @@ topic4.addEventListener("click",()=>{
         photo.style.width = "100px";
         photo.style.height = "100px";
         photo.style.transitionDuration = "1s";
-        myName.style.transform ="translate(calc(55vw - 350px),-22vh)";
+        myName.style.transform ="translate(calc(55vw - 350px),-21vh)";
         myName.style.transitionDuration = "1s";
     }
 });
