@@ -116,6 +116,10 @@ h3{
   color: white;
   font-family: 'Comfortaa', 'cursive';
 }
+h2{
+  color: white;
+  font-family: 'Comfortaa', 'cursive';
+}
 h1{
   margin-left: 60px;
   color: white;
@@ -158,6 +162,9 @@ h1{
   height: 150px;
   border-radius: 50%;
   border: 3px solid white; 
+  background-image: url('../files/sonu.png');
+  background-position: center;
+  background-size: cover;
   /* -webkit-transform: translate(50px,100px);
   transform: translate(calc(75vw - 400px),-20vh);
   transition-duration: 1s; */
