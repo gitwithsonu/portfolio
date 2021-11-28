@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  .container{
+    position: relative;
+    width: 100%;
+    height: 90%;
+    border: 0px solid #fff;
+    border-radius: 3px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.15);
+    overflow: hidden;
+  }
+  .slider-box{
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    height: 100%;
+    width: 200%;
+    justify-content: space-between;
+    border: 0px solid #fff;
+  }
+  
+  .work-box{
+    width:33.33%;
+    padding: 5px;
+    display: flex;
+    justify-content: space-around;
+    flex-flow: wrap;
+    align-items: center;
+    border: 0px solid #fff;
+  }
+  .appAnimation{
+      width: 35%;
+      height: 90%;
+      border-radius: 15px;
+      background-color: #fff;
+  }
+#appAnimation1{
+    background-image: url('../files/drobot.gif');
+    background-position: center;
+    background-size: cover;
+}
+#appAnimation2{
+    background-image: url('../files/schoolinphone.gif');
+    background-position: center;
+    background-size: cover;
+}
+#appAnimation3{
+    background-image: url('../files/zindex.gif');
+    background-position: center;
+    background-size: cover;
+}
+  .appInfo{
+      width: 50%;
+      height: 90%;
+      border-radius: 15px;
+      background-color: #fff;
+  }
+.buttons{
+    width: 200px;
+    height: 65px;
+    display: flex;
+    flex-flow: wrap;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-arounds;
+}
+  .button{
+    width: 45px;
+    height: 45px;
+    margin: 5px;
+    border-radius: 50%;
+    background-color: white;
+  }
+  .button:hover{
+      cursor: pointer;
+  }
+#buttons1{
+    background-color: #5ddcff;
+    background-image: url('../files/left.png');
+    background-position: center;
+    background-size: cover;
+}
+#buttons2{
+    background-color: #4a5374;
+}
+#buttons3{
+    background-color: #4a5374;
+    background-image: url('../files/right.png');
+    background-position: center;
+    background-size: cover;
+}

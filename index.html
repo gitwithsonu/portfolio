@@ -1,70 +1,108 @@
 <!DOCTYPE html>
-<html lang="en" >
-<head>
-  <meta charset="UTF-8">
-  <title>CodePen - Animated Background</title>
-  <link href='https://fonts.googleapis.com/css?family=Raleway:200,400,800' rel='stylesheet' type='text/css'><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
-<link rel='stylesheet' href='https://www.marcoguglie.it/Codepen/AnimatedHeaderBg/demo-1/css/demo.css'>
-<link rel="stylesheet" href="css/bgAnimation.css">
-<link rel="stylesheet" href="css/card.css">
-<link rel="stylesheet" href="css/style.css">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@500&display=swap" rel="stylesheet">
-</head>
-<body>
-<!-- partial:index.partial.html -->
-<div id="large-header" class="large-header">
-    <canvas id="demo-canvas"></canvas>
-    <div class="fullPage">
-        <div class="title">
-            <a href="https://www.sonu.gq"><h1>Sonu.gq</h2></a>
-        </div>
-        <div class="menu">
-            <div class="topic"></div>
-            <div class="topic"></div>
-            <div class="topic"></div>
-            <div class="topic"></div>
-        </div>
-        <div class="content">
-            <div id="topicInfo1" class="topicInfo">
-                <div class="intro">
-                    <div class="photo"></div>
-                    <h3>Sonu kumar</h3>
-                    <div class="bio">
-                        <h3>Education:</h3>
-                        <p class="detail">B.tech  IIEST (<b>NIT Shibpur</b>) in 2nd year ECE</p>
-                        <p class="detail">Xii JAWAHAR NAVODAYA VIDYALAYA kottyam (kerala)</p>
-                        <p class="detail">X JAWAHAR NAVODAYA VIDYALAYA Buxar (Bihar)</p>
-                    </div>
-                </div>
-                <div class="skill">
-                    <h3>App Devlopement</h3>
-                    <div class="AppDevlopementDetails">
-                        <p class="tag"><b>levle:</b>&nbsp; &nbsp; Intermediate-advanced</p>
-                        <p class="detail">Flutter, Firebase, FireStore, CloudFunction(NodeJs), Firebase Securiy Rules, Authentication, AdMob, Pull-push Fetch Api</p>
-                    </div>
-                    <h3>Web Devlopement</h3>
-                    <div class="WebDevlopementDetails">
-                        <p class="tag"><b> level:</b>&nbsp; &nbsp; Intermediate</p>
-                        <p class="detail">HTML, Js, CSS, php</p>
-                    </div>
-                    <div class="logos"></div>
-                </div>
-            </div>
-            <div id="topicInfo2" class="topicInfo"></div>
-            <div id="topicInfo3" class="topicInfo"></div>
-            <div id="topicInfo4" class="topicInfo"></div>
-            <!-- <div class="card">Magic Card</div> -->
-        </div>
-        
-    </div>
-    
-</div>
+<html lang="en">
 
-<!-- partial -->
-<script src='https://www.marcoguglie.it/Codepen/AnimatedHeaderBg/demo-1/js/EasePack.min.js'></script>
-<script src='https://www.marcoguglie.it/Codepen/AnimatedHeaderBg/demo-1/js/rAF.js'></script>
-<script src='https://www.marcoguglie.it/Codepen/AnimatedHeaderBg/demo-1/js/TweenLite.min.js'></script><script  src="js/bgAnimation.js"></script>
+<head>
+    <meta charset="UTF-8">
+    <title>CodePen - Animated Background</title>
+    <link href='https://fonts.googleapis.com/css?family=Raleway:200,400,800' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+    <link rel='stylesheet' href='https://www.marcoguglie.it/Codepen/AnimatedHeaderBg/demo-1/css/demo.css'>
+    <link rel="stylesheet" href="css/bgAnimation.css">
+    <link rel="stylesheet" href="css/card.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/slid.css">
+</head>
+
+<body>
+    <!-- partial:index.partial.html -->
+    <div id="large-header" class="large-header">
+        <canvas id="demo-canvas"></canvas>
+        <div class="fullPage">
+            <div class="title">
+                <a href="https://www.sonu.gq">
+                    <h1>Sonu.gq</h2>
+                </a>
+            </div>
+            <div class="menu">
+                <div id="topic1" class="topic">Profile</div>
+                <div id="topic2" class="topic">Flutter Work </div>
+                <div id="topic3" class="topic">web Work </div>
+                <div id="topic4" class="topic">Learning </div>
+            </div>
+            <div class="content">
+                <div id="topicInfo1" class="topicInfo">
+                    <div class="intro">
+                        <div class="photo"></div>
+                        <h3 class="myName">Sonu kumar</h3>
+                        <div class="bio">
+                            <h3>Education:</h3><br>
+                            <p class="detail">B.tech IIEST (<b>NIT Shibpur</b>) in 2nd year ECE</p>
+                            <p class="detail">Xii JAWAHAR NAVODAYA VIDYALAYA kottyam (kerala)</p>
+                            <p class="detail">X JAWAHAR NAVODAYA VIDYALAYA Buxar (Bihar)</p>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <h3>App Devlopement</h3>
+                        <div class="AppDevlopementDetails">
+                            <p class="tag"><b>levle:</b>&nbsp; &nbsp; Intermediate-Advanced</p>
+                            <p class="detail">Flutter, Firebase, FireStore, CloudFunction(NodeJs), Firebase Securiy
+                                Rules, Authentication, AdMob, Pull-push Fetch Api</p>
+                        </div>
+                        <h3>Web Devlopement</h3>
+                        <div class="WebDevlopementDetails">
+                            <p class="tag"><b> level:</b>&nbsp; &nbsp; Intermediate</p>
+                            <p class="detail">HTML, Js, CSS, php, Digital Ocean(Droplet apache Setup)</p>
+                        </div>
+                        <div class="logos"></div>
+                    </div>
+                </div>
+                <div id="topicInfo2" class="topicInfo">
+
+                    <!-- Created by CodingLab |www.youtube.com/c/CodingLabYT-->
+                    <div class="container">
+                            <div class="slider-box">
+                                <div class="work-box">
+                                    <!-- <img class="img1" src="https://cdn.pixabay.com/photo/2015/01/12/17/40/padlock-597495_960_720.jpg" alt=""> -->
+                                    <div id="appAnimation1" class="appAnimation"></div>
+                                    <div class="appInfo"></div>
+                                </div>
+                                <div class="work-box">
+                                    <!-- <img class="img2" src="https://cdn.pixabay.com/photo/2020/12/30/14/23/waterfall-5873630_960_720.jpg" alt=""> -->
+                                    <div id="appAnimation2" class="appAnimation"></div>
+                                    <div class="appInfo"></div>
+                                </div>
+                                <div class="work-box">
+                                    <div id="appAnimation3" class="appAnimation"></div>
+                                    <div class="appInfo"></div>
+                                    <!-- <img class="img3" src="https://cdn.pixabay.com/photo/2021/11/13/23/06/tree-6792528_960_720.jpg" alt=""> -->
+                                </div>
+                            </div>
+                    </div>
+                    <div class="buttons">
+                        <div id="buttons1" class="button"></pre></div>
+                        <div id="buttons2" class="button"></div>
+                        <div id="buttons3" class="button"></div>
+                    </div>
+                </div>
+                <div id="topicInfo3" class="topicInfo"></div>
+                <div id="topicInfo4" class="topicInfo"></div>
+                <!-- <div class="card">Magic Card</div> -->
+            </div>
+
+        </div>
+
+    </div>
+
+    <!-- partial -->
+    <script src='https://www.marcoguglie.it/Codepen/AnimatedHeaderBg/demo-1/js/EasePack.min.js'></script>
+    <script src='https://www.marcoguglie.it/Codepen/AnimatedHeaderBg/demo-1/js/rAF.js'></script>
+    <script src='https://www.marcoguglie.it/Codepen/AnimatedHeaderBg/demo-1/js/TweenLite.min.js'></script>
+    <script src="js/bgAnimation.js"></script>
+    <script src="js/index.js"></script>
+    <script src="js/slid.js"></script>
 </body>
+
 </html>
