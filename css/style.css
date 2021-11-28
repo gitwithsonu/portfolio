@@ -87,6 +87,7 @@
   bottom: 0px;
   left: 0px;
   z-index: 24;
+  padding: 10px;
   display: none;
   background-color: rgba(255, 0, 140, 0.897);
   backdrop-filter: blur(8px) saturate(120%);
@@ -102,6 +103,7 @@
   bottom: 0px;
   left: 0px;
   z-index: 25;
+  padding: 10px;
   display: none;
   background-color: rgba(255, 251, 0, 0.897);
   backdrop-filter: blur(8px) saturate(120%);
@@ -115,6 +117,7 @@
 h3{
   color: white;
   font-family: 'Comfortaa', 'cursive';
+  display: inline block;
 }
 h2{
   color: white;
@@ -124,6 +127,7 @@ h1{
   margin-left: 60px;
   color: white;
   font-family: 'Comfortaa', 'cursive';
+  display: inline block;
 }
 .detail{
   color: rgba(255, 255, 255, 0.76);
