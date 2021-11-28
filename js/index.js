@@ -91,7 +91,7 @@ topic2.addEventListener("click",()=>{
     topicInfo4.style.display = "none";
     
     if(topic1Active == false){
-        photo.style.transform ="translate(calc(75vw - 300px),-26vh)	";
+        photo.style.transform ="translate(calc(75vw - 300px),-22vh)	";
         photo.style.width = "100px";
         photo.style.height = "100px";
         photo.style.transitionDuration = "1s";
@@ -128,7 +128,7 @@ topic3.addEventListener("click",()=>{
     topicInfo3.style.display = "flex";
     topicInfo4.style.display = "none";
     if(topic1Active == false){
-        photo.style.transform ="translate(calc(75vw - 300px),-26vh)	";
+        photo.style.transform ="translate(calc(75vw - 300px),-22vh)	";
         photo.style.width = "100px";
         photo.style.height = "100px";
         photo.style.transitionDuration = "1s";
@@ -165,7 +165,7 @@ topic4.addEventListener("click",()=>{
     topicInfo3.style.display = "none";
     topicInfo4.style.display = "flex";
     if(topic1Active == false){
-        photo.style.transform ="translate(calc(75vw - 300px),-26vh)	";
+        photo.style.transform ="translate(calc(75vw - 300px),-22vh)	";
         photo.style.width = "100px";
         photo.style.height = "100px";
         photo.style.transitionDuration = "1s";
