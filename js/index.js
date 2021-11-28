@@ -1,19 +1,19 @@
 var photo = document.querySelector(".photo");
 photo.addEventListener("click", ()=>{
     // photo.style.position = "fixed";
-    photo.style.transform ="translate(calc(75vw - 300px),-25vh)	";
-    // photo.style.top ="50px";
-    photo.style.width = "100px";
-    photo.style.height = "100px";
-    photo.style.transitionDuration = "1s";
+    // photo.style.transform ="translate(calc(75vw - 300px),-25vh)	";
+    // // photo.style.top ="50px";
+    // photo.style.width = "100px";
+    // photo.style.height = "100px";
+    // photo.style.transitionDuration = "1s";
 });
 var myName = document.querySelector(".myName");
 myName.addEventListener("click", ()=>{
     // photo.style.position = "fixed";
     
-    // photo.style.top ="50px";
-    myName.style.transform ="translate(calc(55vw - 300px),-22vh)";
-    myName.style.transitionDuration = "1s";
+    // // photo.style.top ="50px";
+    // myName.style.transform ="translate(calc(55vw - 300px),-22vh)";
+    // myName.style.transitionDuration = "1s";
 });
 
 var topic1 = document.querySelector("#topic1");
@@ -91,7 +91,7 @@ topic2.addEventListener("click",()=>{
     topicInfo4.style.display = "none";
     
     if(topic1Active == false){
-        photo.style.transform ="translate(calc(75vw - 300px),-22vh)	";
+        photo.style.transform ="translate(calc(75vw - 300px),-20vh)	";
         photo.style.width = "100px";
         photo.style.height = "100px";
         photo.style.transitionDuration = "1s";
@@ -128,7 +128,7 @@ topic3.addEventListener("click",()=>{
     topicInfo3.style.display = "flex";
     topicInfo4.style.display = "none";
     if(topic1Active == false){
-        photo.style.transform ="translate(calc(75vw - 300px),-22vh)	";
+        photo.style.transform ="translate(calc(75vw - 300px),-20vh)	";
         photo.style.width = "100px";
         photo.style.height = "100px";
         photo.style.transitionDuration = "1s";
@@ -165,7 +165,7 @@ topic4.addEventListener("click",()=>{
     topicInfo3.style.display = "none";
     topicInfo4.style.display = "flex";
     if(topic1Active == false){
-        photo.style.transform ="translate(calc(75vw - 300px),-22vh)	";
+        photo.style.transform ="translate(calc(75vw - 300px),-20vh)	";
         photo.style.width = "100px";
         photo.style.height = "100px";
         photo.style.transitionDuration = "1s";
