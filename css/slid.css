@@ -92,16 +92,22 @@
   }
 #buttons1{
     background-color: #5ddcff;
-    background-image: url('../files/left.png');
+    /* background-image: url('../files/left.png'); */
     background-position: center;
     background-size: cover;
+    color: white;
+    font-size: 25px;
 }
 #buttons2{
     background-color: #4a5374;
+    color: white;
+    font-size: 25px;
 }
 #buttons3{
     background-color: #4a5374;
-    background-image: url('../files/right.png');
+    /* background-image: url('../files/right.png'); */
     background-position: center;
     background-size: cover;
+    color: white;
+    font-size: 25px;
 }
