@@ -191,24 +191,36 @@ var sliderBox = document.querySelector(".slider-box");
 var buttons1 = document.querySelector("#buttons1");
 var buttons2 = document.querySelector("#buttons2");
 var buttons3 = document.querySelector("#buttons3");
+var buttons4 = document.querySelector("#buttons4");
 buttons1.addEventListener('click',()=>{
     sliderBox.style.left = "0%";
     sliderBox.style.transitionDuration = "1s";
     buttons1.style.backgroundColor = "#5ddcff";
     buttons2.style.backgroundColor = "#4a5374";
     buttons3.style.backgroundColor = "#4a5374";
+    buttons4.style.backgroundColor = "#4a5374";
 });
 buttons2.addEventListener('click',()=>{
-    sliderBox.style.left = "-66.33%";
+    sliderBox.style.left = "-78.5%";
     sliderBox.style.transitionDuration = "1s";
     buttons1.style.backgroundColor = "#4a5374";
     buttons2.style.backgroundColor = "#5ddcff";
     buttons3.style.backgroundColor = "#4a5374";
+    buttons4.style.backgroundColor = "#4a5374";
 });
 buttons3.addEventListener('click',()=>{
-    sliderBox.style.left = "-132.66%";
+    sliderBox.style.left = "-157.5%";
     sliderBox.style.transitionDuration = "1s";
     buttons1.style.backgroundColor = "#4a5374";
     buttons2.style.backgroundColor = "#4a5374";
     buttons3.style.backgroundColor = "#5ddcff";
+    buttons4.style.backgroundColor = "#4a5374";
+});
+buttons4.addEventListener('click',()=>{
+    sliderBox.style.left = "-236.25%";
+    sliderBox.style.transitionDuration = "1s";
+    buttons1.style.backgroundColor = "#4a5374";
+    buttons2.style.backgroundColor = "#4a5374";
+    buttons3.style.backgroundColor = "#4a5374";
+    buttons4.style.backgroundColor = "#5ddcff";
 });
