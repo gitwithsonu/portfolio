@@ -20,7 +20,7 @@
     left: 0;
     display: flex;
     height: 100%;
-    width: 200%;
+    width: 315%;
     justify-content: space-between;
     border: 0px solid #fff;
   }
@@ -46,14 +46,19 @@
     background-size: cover;
 }
 #appAnimation2{
-    background-image: url('../files/schoolinphone.gif');
+    background-image: url('../files/pozyX.gif');
     background-position: center;
     background-size: cover;
 }
 #appAnimation3{
-    background-image: url('../files/zindex.gif');
+    background-image: url('../files/shade.gif');
     background-position: center;
     background-size: cover;
+}
+#appAnimation4{
+  background-image: url('../files/zindex.gif');
+  background-position: center;
+  background-size: cover;
 }
 .appInfo{
       width: 50%;
@@ -74,7 +79,7 @@
 }
 
 .buttons{
-    width: 200px;
+    width: 250px;
     height: 65px;
     display: flex;
     flex-flow: wrap;
@@ -86,6 +91,8 @@
     width: 45px;
     height: 45px;
     margin: 5px;
+    padding-left: 3px;
+    padding-top: 5px;
     border-radius: 50%;
     background-color: white;
   }
@@ -112,4 +119,12 @@
     background-size: cover;
     color: white;
     font-size: 25px;
+}
+#buttons4{
+  background-color: #4a5374;
+  /* background-image: url('../files/right.png'); */
+  background-position: center;
+  background-size: cover;
+  color: white;
+  font-size: 25px;
 }
